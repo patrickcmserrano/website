@@ -12,7 +12,7 @@ const LogoBox = styled.span`
   line-height: 20px;
   padding: 10px;
 
-  &:hover img {
+  &:hover svg  {
     transform: rotate(20deg);
   }
 `
@@ -23,7 +23,7 @@ const Logo = () => {
       <LogoBox>
         <DevIcon />
         <Text
-          fontFamily='M PLUS Rounded 1c", sans-serif'
+          fontFamily="'JetBrains Mono'"
           fontWeight="bold"
           ml={4}
         >
