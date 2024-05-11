@@ -69,9 +69,7 @@ const Navbar = (props) => {
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
-          <Box ml={2} display={{ base: "inline-block" }}>
-            <ThemeToggleButton/>
-          </Box>
+          <ThemeToggleButton/>
           <Box ml={2} display={{ base: "inline-block" }}>
             <Menu>
               <MenuButton
